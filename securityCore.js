@@ -221,4 +221,4 @@ console.log(
       : " (UNEXPECTED)")
 );
 
-
+export { assessPhishingRisk };
