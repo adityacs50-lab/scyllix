@@ -1,0 +1,18 @@
+/* This is Tailwind 4 CSS file */
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+  --color-card: #ffffff;
+  --color-card-foreground: #0f172a;
+  --color-border: #e2e8f0;
+  --color-input: #e2e8f0;
+  --color-ring: #64748b;
+}
+
+@layer components {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
